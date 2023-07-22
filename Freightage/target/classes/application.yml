@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+        ddl-auto: update
+    open-in-view: false
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/freight?createDatabaseIfNotExist=true
+    username: root
+    password: root
+
+
